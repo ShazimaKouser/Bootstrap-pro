@@ -150,6 +150,75 @@ a.img-feet {
     opacity: 0.8;
 }
 
+/* CARDS TRANSITION EFFECT */
+.card-guide {
+    padding: 50px 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-img-bottom {
+    width: 100%;
+    height: 100%;
+    background-color: #a9a9a985;
+}
+
+.card-picture {
+    width: 45%;
+    margin: 20px;
+    height: 300px;
+    border: 3px solid #eee;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.card-image {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all .5s;
+}
+
+.card-body-cont {
+    display: none;
+    position: absolute;
+    top: 0;
+    padding: 15% 10%;
+    height: 100%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.card-picture:hover .card-image,
+.card-picture:focus .card-image {
+    transform: scale(1.2);
+}
+
+.card-picture:hover .card-body-cont:before,
+.card-picture:focus .card-body-cont:before {
+    display: block;
+}
+
+.card-picture:hover .card-body-cont,
+.card-picture:focus .card-body-cont {
+    display: block;
+}
+
+.card-image {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52, 73, 94, 0.75);
+}
+
 /* HOVER EFFECT END*/
 
 
@@ -178,7 +247,6 @@ a.img-feet {
     .project-destination .img-feet {
         width: 230px;
     }
-
 }
 
 @media only screen and (min-width:575px) and (max-width: 991px) {
