@@ -64,8 +64,6 @@ ul .nav:hover {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    /* margin-right: -15px; */
-    /* margin-left: -15px; */
 }
 
 .project-destination .text {
