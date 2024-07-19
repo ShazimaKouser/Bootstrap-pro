@@ -103,6 +103,7 @@ a.img-feet {
     border-radius: 5px;
     font-size: 20px;
     width: 50%;
+    text-align: center;
 }
 
 .project-destination:hover {
@@ -147,7 +148,6 @@ a.img-feet {
 
 .card-img-top:hover {
     transform: scale(0.9);
-    opacity: 0.8;
 }
 
 /* CARDS TRANSITION EFFECT */
