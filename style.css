@@ -5,6 +5,19 @@
     font-family: "Poppins", sans-serif;
 }
 
+.container-nav {
+    position: relative;
+    width: 100%;
+    max-width: 72rem;
+    margin: 0 auto;
+}
+
+.container-navs {
+    width: 100%;
+    max-width: 72rem;
+    margin: 0 auto;
+}
+
 a.nav-link:hover {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
@@ -119,7 +132,6 @@ a.img-feet {
     text-decoration: none;
     z-index: 0;
     overflow: hidden;
-    background: linear-gradient(to bottom, #c3e6ec, #a7d1d9);
 }
 
 .card:before {
@@ -128,10 +140,9 @@ a.img-feet {
     z-index: -1;
     top: -16px;
     right: -16px;
-    background: linear-gradient(135deg, #364a6065, #384c6c96);
+    background: linear-gradient(135deg, #3f587265, #384c6c96);
     height: 32px;
     width: 32px;
-    border-radius: 32px;
     transform: scale(1);
     transform-origin: 50% 50%;
     transition: transform 0.35s ease-out;
@@ -161,7 +172,7 @@ a.img-feet {
 .card-img-bottom {
     width: 100%;
     height: 100%;
-    background-color: #a9a9a985;
+    background-color: white;
 }
 
 .card-picture {
@@ -180,7 +191,7 @@ a.img-feet {
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: all .5s;
+    transition: 2s ease-in-out 4s !important;
 }
 
 .card-body-cont {
@@ -196,6 +207,7 @@ a.img-feet {
 .card-picture:hover .card-image,
 .card-picture:focus .card-image {
     transform: scale(1.2);
+
 }
 
 .card-picture:hover .card-body-cont:before,
@@ -206,6 +218,7 @@ a.img-feet {
 .card-picture:hover .card-body-cont,
 .card-picture:focus .card-body-cont {
     display: block;
+    transition: 5s ease-in-out 10s !important;
 }
 
 .card-image {
@@ -216,7 +229,7 @@ a.img-feet {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(52, 73, 94, 0.75);
+    background-color: #3f587265;
 }
 
 /* HOVER EFFECT END*/
