@@ -11,206 +11,181 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>DB timetable,information,tickets,information and reservation - </title>
-    <link rel="shortcut icon" href="image/logo-.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="image/bus (5).png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 
 </head>
 
 <body>
-
-    <section>
-        <div class="container-nav">
-            <nav class="navbar-expand-lg navbar-light bg-light my-nav position-absolute w-100">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="p-2  navbar-collapse justify-content-end my-nav2 fs-6" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Private rides</a>
+    <nav class="navbar-expand-lg navbar-light bg-light my-nav">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="p-2  navbar-collapse justify-content-end my-nav2" id="navbarNavDropdown">
+                <ul class="navbar-nav gap-2">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Private rides</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Company rides</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Help and contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Verkehismeldungen</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Deutsch
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#"><img src="image/download.svg" alt=""> Český</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Company rides</a>
+                            <li><a class="dropdown-item" href="#"><img src="image/download.svg" alt="">Dansk</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Help and contact</a>
+                            <li><a class="dropdown-item" href="#"><img src="image/download.svg" alt="">English</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Verkehismeldungen</a>
+                            <li><a class="dropdown-item" href="#"><img src="image/download.svg" alt="">Espanol</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Deutsch
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#"><img src="image/download.svg" alt="">
-                                            Český</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="#"><img src="image/download.svg" alt="">Dansk</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="#"><img src="image/download.svg"
-                                                alt="">English</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="#"><img src="image/download.svg"
-                                                alt="">Espanol</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="#"><img src="image/download.svg"
-                                                alt="">Francais</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="#"><img src="image/download.svg"
-                                                alt="">Italiano</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="#"><img src="image/download.svg"
-                                                alt="">Nederlands</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="#"><img src="image/download.svg"
-                                                alt="">Polski</a>
-                                    </li>
-                                </ul>
+                            <li><a class="dropdown-item" href="#"><img src="image/download.svg" alt="">Francais</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#"><img src="image/download.svg" alt="">Italiano</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#"><img src="image/download.svg" alt="">Nederlands</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#"><img src="image/download.svg" alt="">Polski</a>
                             </li>
                         </ul>
-                    </div>
-                </div>
-            </nav>
-            <header class=" bg-light text-black my-nav1 position-absolute w-100 " style="top: 3rem;">
-                <div class="container second-nav top-5">
-                    <div
-                        class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start gap-4 pb-2">
-                        <div class="img-logo">
-                            <a href="index.html"><img class="DB-logo" src="image/logo-.svg" width="65px" alt=""></a>
-                        </div>
-                        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 fw-bold gap-3">
-                            <li><a href="index1.html" class="nav-link px-2 text-dark fs-6"><span>TICKETS &
-                                        OFFERS</span></a>
-                            </li>
-                            <li><a href="index2.html" class="nav-link px-2 text-dark fs-6"><span>INFORMATION AND
-                                        SERVICES</span></a>
-                            </li>
-                            <li><a href="index3.html" class="nav-link px-2 text-dark fs-6"><span>A FLEET OF
-                                        BUS</span></a>
-                            </li>
-                            <li><a href="index4.html" class="nav-link px-2 text-dark fs-6"><span>MY JOURNEYS</span></a>
-                            </li>
-                            <li><a href="index6.html" class="nav-link px-2 text-dark fs-6"><span>FEATURES</span></a>
-                            </li>
-                        </ul>
-                        <div class="icon fs-5">
-                            <i class="bi bi-search"></i>
-                        </div>
-                        <div class="user fs-5">
-                            <i class="bi bi-person-circle"></i>
-                        </div>
-                        <div class="text-end fs-5">
-                            <a class="log-p" href="index5.html"><span>Log in</span></a>
-                        </div>
-                    </div>
-                </div>
-            </header>
-        </div>
-    </section>
-    <section>
-        <div class="my-class d-flex justify-content-center">
-            <div class="hero-img">
-                <img src="image/index1.avif" class="img-fluid w-100" alt="...">
+                    </li>
+                </ul>
             </div>
         </div>
-    </section>
-    <section>
-        <div class="container-navs bg-light w-100 position-relative shadow bg-body rounded" style="top: -65px;">
-            <div class=" Z d-flex justify-content-center mb-3 align-items-center bg-light pt-2 gap-3">
-                <div class="input-group">
-                    <div class="input-group-text">
-                        <input class="form-check-input mt-0" type="radio" value=""
-                            aria-label="Radio button for following text input">
-                    </div>
-                    <input type="text" placeholder="OF" class="form-control" aria-label="Text input with radio button">
+    </nav>
+    <header class="p-2 bg-light text-black my-nav1 ">
+        <div class="container second-nav">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start gap-4">
+                <div class="img-logo ">
+                    <a href="index.html"><img class="DB-logo" src="image/bus (5).png" width="65px" alt=""></a>
                 </div>
-                <div class="input-group">
-                    <div class="input-group-text">
-                        <i class="bi bi-geo-alt icon"></i>
-                    </div>
-                    <input type="text" placeholder="TO" class="form-control" aria-label="Text input with radio button">
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 fw-bold gap-4">
+                    <li><a href="index1.html" class="nav-link px-2 text-dark fs-6"><span>TICKETS AND
+                                OFFERS</span></a>
+                    </li>
+                    <li><a href="index2.html" class="nav-link px-2 text-dark fs-6"><span>INFORMATION &
+                                SERVICES</span></a>
+                    </li>
+                    <li><a href="index3.html" class="nav-link px-2 text-dark fs-6"><span>A FLEET OF
+                                BUS</span></a>
+                    </li>
+                    <li><a href="index4.html" class="nav-link px-2 text-dark fs-6"><span>Book now</span></a>
+                    </li>
+                    <li><a href="index6.html" class="nav-link px-2 text-dark fs-6"><span>FEATURES</span></a>
+                    </li>
+                </ul>
+                <div class="icon fs-5">
+                    <i class="bi bi-search"></i>
                 </div>
-                <div class="my-btn m-1 p-1">
-                    <button type="button" class="btn btn-danger btn-lg">Search</button>
+                <div class="user fs-5">
+                    <i class="bi bi-person-circle"></i>
                 </div>
-            </div>
-            <div class="container d-flex flex-wrap">
-                <div class="travel d-flex justify-content-center flex-wrap gap-5 ml-0 w-100">
-                    <div class="my-cal-0 d-flex">
-                        <i class="bi bi-calendar2-minus fs-5 p-1"></i>
-                        <div class="my-cal fs-6 p-1 ">
-                            <h6>Today, from 19:55</h6>
-                            <p>find a way there</p>
-                        </div>
-                    </div>
-                    <div class="my-cal-0 d-flex">
-                        <i class="bi bi-calendar2-minus fs-5 pt-1"></i>
-                        <div class="my-cal p-1">
-                            <h6>Driving back</h6>
-                            <p>add</p>
-                        </div>
-                    </div>
-                    <div class="my-cal-0 d-flex">
-                        <i class="bi bi-person fs-4 pt-1"></i>
-                        <div class="my-cal p-1">
-                            <h6>Passengers, bicycles, BahnCards</h6>
-                            <span>1 Person (aged 27‑64), no discount</span>
-                        </div>
-                    </div>
-                    <div class="one d-flex justify-content-end align-items-center flex-wrap fs-5 gap-5 "
-                        style="width: 29%;">
-                        <h5 class="mrg-class mb-0">1. Class</h5>
-                        <button type="button" class="btn btn-secondary rounded-pill fs-6">2. Class</button>
-                    </div>
-
+                <div class="text-end fs-5">
+                    <a class="log-p" href="index5.html"><span>Log in</span></a>
                 </div>
             </div>
         </div>
-    </section>
+    </header>
     <section>
-        <div class="hd d-flex justify-content-center mb-5 mt-5">
-            <h3><strong>My journeys</strong></h3>
+        <div class="hd d-flex justify-content-center mt-5">
+            <h3><strong>ONLINE BOOK</strong></h3>
         </div>
         <div class="container contact_container d-flex gap-5">
             <div class="container-fluid shadow p-3 mb-5 bg-body rounded">
-                <h5 class="content-teaser__headline mb-5 mt-5"><strong>Order search</strong></h5>
-                <p>To search for an order, please enter the order number and the surname of the traveling person.</p>
-                <div class="form-floating mb-5 mt-5">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="">
-                    <label for="floatingInput">Order Number*</label>
+                <div class="bus-booking text-center">
+                    <div class="content p-5 text-body-secondary ">
+                        <h4 class="books text-primary pb-3">EASY TO BOOK</h4>
+                        <p>Easily book your bus tickets online with our intuitive platform, offering a wide range of
+                            routes and seating options. Enjoy secure payments and instant confirmation for a hassle-free
+                            travel experience. We partner with reliable operators to ensure safety and punctuality on
+                            your journey. Access real-time availability and transparent pricing for all routes.</p>
+                        <p>
+                        <h4 class="books text-primary pb-3">Why choose our service?</h4> Travel with peace of mind
+                        knowing
+                        that we partner with reliable bus operators committed to safety and punctuality. Whether
+                        you're commuting for work or embarking on a leisurely trip, our service provides transparent
+                        pricing and detailed route information. Our dedicated customer support team is available
+                        24/7 to assist you with any questions or changes. Experience the ease of bus travel with a
+                        platform that prioritizes your convenience and satisfaction.</p>
+                    </div>
                 </div>
-                <div class="form-floating">
-                    <input type="password" class="form-control" id="floatingPassword" placeholder="">
-                    <label for="floatingPassword">Surname Of Traveling Person* </label>
+                <div class="container-fluid ">
+                    <div class="purpose">
+                        <div class="container p-5 text-body-secondary">
+                            <div class="container my-5">
+                                <h1 class="text-center mb-4 text-primary pb-5">Bus Booking</h1>
+                                <form>
+                                    <div class="row mb-3 fw-bold pb-3">
+                                        <div class="col-md-6">
+                                            <label for="departure" class="form-label">Name</label>
+                                            <input type="text" class="form-control" id="departure"
+                                                placeholder="Enter Your Name">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="destination" class="form-label ">Email</label>
+                                            <input type="email" class="form-control" id="destination"
+                                                placeholder="Enter Your email">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3 fw-bold pb-3">
+                                        <div class="col-md-6">
+                                            <label for="departure" class="form-label ">Departure</label>
+                                            <input type="text" class="form-control" id="departure"
+                                                placeholder="Enter departure city">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="destination" class="form-check-label">Destination</label>
+                                            <input type="text" class="form-control" id="destination"
+                                                placeholder="Enter destination city">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3 fw-bold pb-3">
+                                        <div class="col-md-6">
+                                            <label for="date" class="form-label">Date of Travel</label>
+                                            <input type="date" class="form-control" id="date">
+                                        </div>
+                                        <div class="col-md-6 pb-3">
+                                            <label for="seats" class="form-label">Number of
+                                                Seats</label>
+                                            <input type="number" class="form-control" id="seats"
+                                                placeholder="Enter number of seats">
+                                        </div>
+                                    </div>
+                                    <div class="form-floating w-100 pb-3">
+                                        <textarea class="form-control" placeholder="Leave a comment here"
+                                            id="floatingTextarea"></textarea>
+                                        <label for="floatingTextarea">Special Request</label>
+                                    </div>
+                                    <div class="button1 text-center pt-5">
+                                        <button type="submit" class="btn btn-primary btn-lg w-50 text-center">Book
+                                            Now</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <script
+                                src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="form-check d-flex align-items-center">
-                    <input class="form-check-input p-3 m-2" type="checkbox" value="" id="flexCheckIndeterminate">
-                    <label class="form-check-label m-5" for="flexCheckIndeterminate">
-                        Jsem clovek <img class="cap w-25" src="image/captcha.webp" alt="">
-                    </label>
-                </div>
-                <div class="btn-2 text-end">
-                    <button type="button" class="btn btn-outline-danger">Search</button>
-                </div>
-            </div>
-            <div class="container-fluid shadow p-5 mb-5 gap-5 bg-body rounded">
-                <h5 class="content-teaser__headline"><strong>Login</strong></h5>
-                <p>If you are logged in with a customer account, you can also view all orders in the trip
-                    overview.</p>
-                <span class="Link-bot" aria-hidden="true">
-                    <img src="image/download.svg" alt="">
-                    Login to customer account
-                </span>
             </div>
         </div>
     </section>
