@@ -302,8 +302,8 @@ a.img-feet {
 
     .navs {
         width: 100%;
-        left: 0;
-        margin-left: 0;
+        /* left: 0;
+        margin-left: 0; */
         top: 100%;
         position: inherit;
     }
@@ -441,5 +441,9 @@ a.img-feet {
 
     .card-rows {
         margin-top: 30%;
+    }
+
+    .booking-page {
+        box-shadow: 3px 1rem 1rem rgb(20 17 17 / 15%) !important;
     }
 }
