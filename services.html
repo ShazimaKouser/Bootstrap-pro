@@ -17,9 +17,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -94,18 +94,19 @@
                             </div>
                             <ul
                                 class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 fw-bold gap-4">
-                                <li><a href="index1.html" class="nav-link px-2 text-dark fs-6"><span>TICKETS AND
+                                <li class="active"><a href="tickets.html"
+                                        class="nav-link px-2 text-dark fs-6"><span>TICKETS AND
                                             OFFERS</span></a>
                                 </li>
-                                <li><a href="index2.html" class="nav-link px-2 text-dark fs-6"><span>INFORMATION &
+                                <li><a href="services.html" class="nav-link px-2 text-dark fs-6"><span>INFORMATION &
                                             SERVICES</span></a>
                                 </li>
-                                <li><a href="index3.html" class="nav-link px-2 text-dark fs-6"><span>A FLEET OF
+                                <li><a href="Afleetbus.html" class="nav-link px-2 text-dark fs-6"><span>A FLEET OF
                                             BUS</span></a>
                                 </li>
-                                <li><a href="index4.html" class="nav-link px-2 text-dark fs-6"><span>Book now</span></a>
+                                <li><a href="Booknow.html" class="nav-link px-2 text-dark fs-6"><span>Book now</span></a>
                                 </li>
-                                <li><a href="index6.html" class="nav-link px-2 text-dark fs-6"><span>FEATURES</span></a>
+                                <li><a href="feature.html" class="nav-link px-2 text-dark fs-6"><span>FEATURES</span></a>
                                 </li>
                             </ul>
                             <div class="icon fs-5">
@@ -115,21 +116,20 @@
                                 <i class="bi bi-person-circle"></i>
                             </div>
                             <div class="text-end fs-5">
-                                <a class="log-p" href="index5.html"><span>Log in</span></a>
+                                <a class="log-p" href="login.html"><span>Log in</span></a>
                             </div>
                         </div>
-                    </div>
                 </header>
             </div>
         </div>
     </section>
     <section>
-        <div class="my-class d-flex justify-content-center position-relative z-0 shadow p-3 bg-body">
+        <div class="my-class d-flex justify-content-center position-relative z-0 shadow bg-body">
             <div class="hero-img">
-                <img src="image/index3.avif" class="bus-hero img-fluid w-100" alt="...">
+                <img src="image/index1.avif" class="bus-hero img-fluid w-100" alt="...">
             </div>
             <div class="container nav-two bg-light w-100 position-absolute"
-                style="bottom: -25%;width: 100%; max-width:69rem">
+                style="bottom: -43%;width: 100%; max-width:69rem">
                 <div class=" Z d-flex justify-content-center  bg-light w-100 gap-3 mt-4">
                     <div class="form-floating" style="width: 35%;">
                         <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
@@ -141,7 +141,7 @@
                     </div>
                     <button type="button" class="btn btn-outline-danger btn-lg">Search</button>
                 </div>
-                <div class="container d-flex flex-wrap shadow p-3 mt-3 bg-body">
+                <div class="container d-flex flex-wrap shadow p-3 mt-3 bg-body mb-5">
                     <div class="travel d-flex w-100" style="justify-content: space-around;">
                         <div class="my-cal-0 d-flex">
                             <i class="bi bi-calendar2-minus fs-6 p-1"></i>
@@ -176,254 +176,122 @@
         </div>
     </section>
     <section>
-        <div class="card-rows d-flex flex-wrap justify-content-center pt-5 gap-4 shadow p-3 bg-body">
-            <div class="card-contain" style="width: 35rem;">
-                <img src="image/index1-pic.avif" class="card-img-top card-pic" alt="...">
-                <div class="card-content bg-body rounded">
-                    <h5 class="content-teaser__headline"><strong>Super bargain price</strong></h5>
-                    <div class="content-teaser__text rte">
-                        <ul>
-                            <li>Cancellation is not possible</li>
-                            <li>bound for the train</li>
-                        </ul>
+        <div class="info text-center">
+            <h4 class="display-5 fw-bold">Information and Services</h4>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-5 fs-6">Here you will find everything about ordering: from information to ordering
+                    options
+                    to payment options. Find out more about exchanging and canceling your ticket and passenger rights.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="hd d-flex justify-content-center">
+            <h3><strong>Ticket reservation</strong></h3>
+        </div>
+        <div class="order w-100 d-flex flex-wrap justify-content-center shadow-sm p-3 mb-5 bg-body rounded gap-5 p-5">
+            <div class="card" style="width: 28rem;">
+                <img src="image/card-1.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title mb-4"><strong>To the best price finder</strong></h5>
+                    <div class="content-teaser__text rte mb-4">
+                        <p>Find cheap ticket prices for the connections you want.</p>
                     </div>
                     <span class="Link-bot" aria-hidden="true">
                         <img src="image/download.svg" alt="">
-                        At a super affordable price
+                        more to the best price finder
                     </span>
+                </div>
+            </div>
+            <div class="card" style="width: 28rem;">
+                <img src="image/card-2.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title mb-4"><strong>DB Navigator application</strong></h5>
+                    <div class="content-teaser__text rte mb-4">
+                        <p>The perfect travel companion: tickets, route planning, convenient check-in and much more -
+                            all in one app!</p>
+                    </div>
+                    <span class="Link-bot" aria-hidden="true">
+                        <img src="image/download.svg" alt="">
+                        To the DB Navigator application
+                    </span>
+                </div>
+            </div>
+            <div class="card" style="width: 28rem;">
+                <img src="image/card-3.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title mb-4"><strong>Digital ticket on mobile phone or computer</strong></h5>
+                    <div class="content-teaser__text rte mb-4">
+                        <p>Mobile ticket or online ticket: read about the differences between them and their advantages
+                            and how you can order them.</p>
+                    </div>
+                    <span class="Link-bot" aria-hidden="true"><img src="image/download.svg" alt="">
+                        More information about the digital ticket
+                    </span>
+                </div>
+            </div>
+            <div class="card" style="width: 28rem;">
+                <img src="image/card-4.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title mb-4"><strong>customer's account</strong></h5>
+                    <div class="content-teaser__text rte mb-4">
+                        <p>Deutsche Bahn customer account.</p>
+                    </div>
+                    <span class="Link-bot" aria-hidden="true"><img src="image/download.svg" alt="">
+                        More about the customer account
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="hd d-flex flex-wrap justify-content-center">
+            <h3><strong>Good to know</strong></h3>
+        </div>
 
-                </div>
-            </div>
-            <div class="card-contain" style="width: 35rem;">
-                <img src="image/index1.pic1.avif" class="card-img-top" alt="...">
-                <div class="card-body bg-body rounded">
-                    <h5 class="content-teaser__headline"><strong>Good price</strong></h5>
+        <div class="card-guide d-flex flex-wrap justify-content-center p-5">
+            <div class="card-picture border border-secondary" style="width: 20rem;">
+                <img src="image/picture.svg" class="card-img-bottom" alt="...">
+                <div class="card-body-cont card-content bg-secondary rounded text-light">
+                    <h5 class="content-teaser__headling "><strong>Payment options</strong></h5>
                     <div class="content-teaser__text rte">
-                        <ul>
-                            <li>Cancellation for a fee of EUR 10</li>
-                            <li>bound for the train</li>
-                        </ul>
+                        <p>Giropay, direct debit, credit card or PayPal: this is how you pay at int.bahn.de and in
+                            the
+                            DB Navigator app.</p>
                     </div>
                     <span class="Link-bot" aria-hidden="true">
                         <img src="image/download.svg" alt="">
-                        At a bargain price</span>
+                        All payment options
                 </div>
             </div>
-        </div>
-    </section>
-    <section>
-        <div class="order d-flex justify-content-center flex-wrap shadow p-3 mb-5 bg-body rounded gap-4 p-5">
-            <div class="card-second" style="width: 23rem;">
-                <img src="image/index.pic1.avif" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="content-teaser__headline"><strong>Flexibilní cena</strong></h5>
+            <div class="card-picture border border-secondary" style="width: 20rem;">
+                <img src="image/picture1.avif" class="card-img-bottom" alt="...">
+                <div class="card-body-cont bg-secondary rounded text-light">
+                    <h5 class="content-teaser__headline"><strong>Passenger rights</strong></h5>
                     <div class="content-teaser__text rte">
-                        <ul>
-                            <li>possibility of free cancellation</li>
-                            <li>with City-Ticket</li>
-                            <li>without being tied to a train</li>
-                        </ul>
+                        <p>Find out what you're entitled to in the event of a train delay or cancellation and apply
+                            for
+                            compensation using the form here.</p>
                     </div>
                     <span class="Link-bot" aria-hidden="true">
                         <img src="image/download.svg" alt="">
-                        At a flexible price
-                    </span>
+                        Your rights as our Passengers
                 </div>
             </div>
-            <div class="card-second" style="width: 23rem;">
-                <img src="image/index.pic2.avif" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="content-teaser__headline"><strong>Bargain price for groups</strong></h5>
+            <div class="card-picture border border-secondary" style="width: 20rem;">
+                <img src="image/picture2.svg" class="card-img-bottom" alt="...">
+                <div class="card-body-cont bg-secondary rounded text-light
+                text-light">
+                    <h5 class="content-teaser__headline"><strong>Exchange and cancellation</strong></h5>
                     <div class="content-teaser__text rte">
-                        <ul>
-                            <li>from 6 people</li>
-                            <li>with a seat</li>
-                            <li>bound for the train</li>
-                        </ul>
+                        <p>Exchange or cancellation of tickets and seats - we will advise you how to do it and what
+                            you
+                            need to pay attention to</p>
                     </div>
                     <span class="Link-bot" aria-hidden="true">
                         <img src="image/download.svg" alt="">
-                        At favorable prices for groups
-                    </span>
-                </div>
-            </div>
-            <div class="card-second" style="width: 23rem;">
-                <img src="image/index.pic3.avif" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="content-teaser__headline"><strong>To regional offers</strong></h5>
-                    <div class="content-teaser__text rte">
-                        <ul>
-                            <li>in local transport (IRE, RE, RB, S-Bahn)</li>
-                            <li>tickets for 1 to 5 people</li>
-                            <li>any number of rides in 1 day</li>
-                        </ul>
-                    </div>
-                    <span class="Link-bot" aria-hidden="true"><img src="image/download.svg" alt="">
-                        To regional offers
-                    </span>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="hd d-flex justify-content-center">
-            <h3><strong>Offers for trips around Europe</strong></h3>
-        </div>
-        <div class="order d-flex flex-wrap justify-content-center shadow p-3 mb-5 bg-body rounded gap-4 p-5">
-            <div class="card" style="width: 23rem;">
-                <img src="image/index.img1.avif" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="content-teaser__headline"><strong>Super bargain price Europe</strong></h5>
-                    <div class="content-teaser__text rte">
-                        <ul>
-                            <li>cancellation is not possible</li>
-                            <li>bound for the train</li>
-                        </ul>
-                    </div>
-                    <span class="Link-bot" aria-hidden="true">
-                        <img src="image/download.svg" alt="">
-                        To Super bargain price Europe
-                    </span>
-                </div>
-            </div>
-            <div class="card" style="width: 23rem;">
-                <img src="image/index.img2.avif" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="content-teaser__headline"><strong>Bargain price Europe</strong></h5>
-                    <div class="content-teaser__text rte">
-                        <ul>
-                            <li>cancellation for a fee of EUR 10</li>
-                            <li>bound for the train</li>
-                        </ul>
-                    </div>
-                    <span class="Link-bot" aria-hidden="true">
-                        <img src="image/download.svg" alt="">
-                        At a bargain price Europe
-                    </span>
-                </div>
-            </div>
-            <div class="card" style="width: 23rem;">
-                <img src="image/index.img3.avif" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="content-teaser__headline"><strong>Bargain price for Europe groups</strong></h5>
-                    <div class="content-teaser__text rte">
-                        <ul>
-                            <li>from 6 people</li>
-                            <li>with a seat</li>
-                            <li>bound for the train</li>
-                        </ul>
-                    </div>
-                    <span class="Link-bot" aria-hidden="true"><img src="image/download.svg" alt="">
-                        For favorable prices for groups in Europe
-                    </span>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="card-rows d-flex justify-content-center flex-wrap shadow p-3 mb-5 bg-body rounded gap-4 p-5">
-            <div class="card-structure" style="width: 35rem;">
-                <img src="image/index1.pic2.avif" class="card-img-top" alt="...">
-                <div class="card-body bg-body rounded">
-                    <h5 class="content-teaser__headline"><strong>Flexible price Europe</strong></h5>
-                    <div class="content-teaser__text rte">
-                        <ul>
-                            <li>choose any train</li>
-                            <li>possibility of free cancellation</li>
-                            <li>with City-Ticket</li>
-                        </ul>
-                    </div>
-                    <span class="Link-bot" aria-hidden="true">
-                        <img src="image/download.svg" alt="">
-                        K Flexible price Europe
-                </div>
-            </div>
-            <div class="card-structure" style="width: 35rem;">
-                <img src="image/index1.pic3.avif" class="card-img-top" alt="...">
-                <div class="card-body bg-body rounded">
-                    <h5 class="content-teaser__headline"><strong>Interrail Pass</strong></h5>
-                    <div class="content-teaser__text rte">
-                        <ul>
-                            <li>discover Europe without limits</li>
-                            <li>valid in more than 33 countries</li>
-                            <li>Residence: Europe/Russia/Turkey</li>
-                        </ul>
-                    </div>
-                    <span class="Link-bot" aria-hidden="true">
-                        <img src="image/download.svg" alt="">
-                        To the Interrail Pass ticket
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="hd d-flex justify-content-center">
-            <h3><strong>Other offers</strong></h3>
-        </div>
-        <div class="card-rows d-flex justify-content-center shadow p-3 mb-5 bg-body rounded flex-wrap gap-5 p-5">
-            <div class="card-structure border border-secondary" style="width: 25rem;">
-                <img src="image/card1.avif" class="card-img-top" alt="...">
-                <div class="card-body bg-body rounded">
-                    <h5 class="content-teaser__headline"><strong>Driving at night</strong></h5>
-                    <div class="content-teaser__text rte">
-                        <ul>
-                            <li>traveling and sleeping at the same time</li>
-                            <li>you will arrive rested in the morning</li>
-                            <li>straight to the point</li>
-                        </ul>
-                    </div>
-                    <span class="Link-bot" aria-hidden="true">
-                        <img src="image/download.svg" alt="">
-                        To our night trains
-                </div>
-            </div>
-            <div class="card-structure border border-secondary" style="width: 25rem;">
-                <img src="image/card2.avif" class="card-img-top" alt="...">
-                <div class="card-body bg-body rounded">
-                    <h5 class="content-teaser__headline"><strong>BahnCard</strong></h5>
-                    <div class="content-teaser__text rte">
-                        <ul>
-                            <li>Save 25/50/100% on every ride</li>
-                            <li>Discount for domestic/international travel</li>
-                            <li>validity period 3-12 months</li>
-                        </ul>
-                    </div>
-                    <span class="Link-bot" aria-hidden="true">
-                        <img src="image/download.svg" alt="">
-                        To BahnCards
-                </div>
-            </div>
-            <div class="card-structure border border-secondary" style="width: 25rem;">
-                <img src="image/card3.avif" class="card-img-top" alt="...">
-                <div class="card-body bg-body rounded">
-                    <h5 class="content-teaser__headline"><strong>The place</strong></h5>
-                    <div class="content-teaser__text rte">
-                        <ul>
-                            <li>travel relaxed and book your favorite seat</li>
-                            <li>can be booked separately from the ticket</li>
-                            <li>1st Class: including seat</li>
-                        </ul>
-                    </div>
-                    <span class="Link-bot" aria-hidden="true">
-                        <img src="image/download.svg" alt="">
-                        To the place
-                </div>
-            </div>
-            <div class="card-structure border border-secondary" style="width: 25rem;">
-                <img src="image/card4.avif" class="card-img-top" alt="...">
-                <div class="card-body bg-body rounded">
-                    <h5 class="content-teaser__headline"><strong>Offers for business travelers</strong>
-                    </h5>
-                    <div class="content-teaser__text rte">
-                        <ul>
-                            <li>Exclusive, permanent, free</li>
-                            <li>flexibly cancelable offers</li>
-                            <li>attractive customer discounts</li>
-                        </ul>
-                    </div>
-                    <span class="Link-bot" aria-hidden="true">
-                        <img src="image/download.svg" alt="">
-                        K program for business customers
+                        Exchange and cancellation
                 </div>
             </div>
         </div>

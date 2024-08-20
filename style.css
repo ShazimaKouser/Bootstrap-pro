@@ -15,7 +15,13 @@
     position: absolute;
     max-width: 75rem;
     margin: auto;
-    left: 8%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, 0px);
+}
+
+.active {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .nav-two {
@@ -409,7 +415,6 @@ a.img-feet {
     .navs {
         position: relative;
         bottom: 0px;
-        left: 0px;
     }
 
     .card-rows-idx {
